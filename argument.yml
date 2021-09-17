@@ -5,10 +5,10 @@ MiDaS_model_ckpt: MiDaS/model.pt
 use_boostmonodepth: True
 fps: 60
 num_frames: 180
-x_shift_range: [0.00, 0.00, -0.015, -0.015]
-y_shift_range: [0.00, 0.00, -0.015, -0.00]
-z_shift_range: [-0.05, -0.05, -0.05, -0.05]
-traj_types: ['double-straight-line', 'double-straight-line', 'circle', 'circle']
+x_shift_range: [-0.015, -0.015]
+y_shift_range: [-0.015, -0.00]
+z_shift_range: [-0.05, -0.05]
+traj_types: ['circle', 'circle']
 video_postfix: ['circle', 'swing']
 specific: ''
 longer_side_len: 960
